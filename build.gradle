@@ -1,0 +1,19 @@
+// Reine Daten-Mod (Rezept, Advancement, Funktionen) - kein Java-Code,
+// daher braucht der Build weder Loom noch Minecraft-Abhaengigkeiten.
+plugins {
+	id 'java'
+}
+
+version = project.mod_version
+
+base {
+	archivesName = project.archives_base_name
+}
+
+processResources {
+	inputs.property "version", project.version
+
+	filesMatching("fabric.mod.json") {
+		expand "version": inputs.properties.version
+	}
+}

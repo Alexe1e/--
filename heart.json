@@ -1,0 +1,28 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:netherite_ingot",
+		"minecraft:diamond",
+		"minecraft:diamond",
+		"minecraft:diamond",
+		"minecraft:diamond"
+	],
+	"result": {
+		"id": "minecraft:apple",
+		"count": 1,
+		"components": {
+			"minecraft:item_name": {"text": "Herz", "color": "red", "bold": true},
+			"minecraft:lore": [
+				{"text": "Benutzen: +1 Herz (max. Leben)", "color": "gray", "italic": false},
+				{"text": "Beim Tod gehen alle Extra-Herzen verloren", "color": "dark_red", "italic": false}
+			],
+			"minecraft:custom_data": {"herzmod": true},
+			"minecraft:enchantment_glint_override": true,
+			"minecraft:rarity": "epic",
+			"minecraft:max_stack_size": 16,
+			"!minecraft:food": {},
+			"minecraft:consumable": {"consume_seconds": 1.0, "animation": "eat"}
+		}
+	}
+}

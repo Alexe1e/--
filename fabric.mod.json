@@ -1,0 +1,14 @@
+{
+	"schemaVersion": 1,
+	"id": "herzmod",
+	"version": "${version}",
+	"name": "Herz Mod",
+	"description": "Craftbare Herzen: +1 Herz pro Item, bei Tod gehen alle Extra-Herzen verloren. Nur serverseitig, funktioniert auch fuer Bedrock-Spieler (Geyser/Floodgate).",
+	"authors": ["Alex"],
+	"license": "MIT",
+	"environment": "*",
+	"depends": {
+		"fabric-api": "*",
+		"minecraft": "~26.3"
+	}
+}
